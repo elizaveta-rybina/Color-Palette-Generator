@@ -4,11 +4,60 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Color Palette Generator</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div class="container">
-			
+			<h1>Color Paletter Generator</h1>
+			<button id="generate-btn">
+				<i class="fas fa-sync-alt"></i>
+				Generate Palette
+			</button>
+			<div class="palette-container">
+				<!-- COLOR BOX -->
+				<div class="color-box">
+					<div class="color" style="background-color: #00ffff"></div>
+					<div class="color-info">
+						<span class="hex-value">#00ffff</span>
+						<i class="far fa-copy copy-btn" title="Copy to clipboard"></i>
+					</div>
+				</div>
+				<div class="color-box">
+					<div class="color" style="background-color: #133737"></div>
+					<div class="color-info">
+						<span class="hex-value">#133737</span>
+						<i class="far fa-copy copy-btn" title="Copy to clipboard"></i>
+					</div>
+				</div>
+				<div class="color-box">
+					<div class="color" style="background-color: #2a1d74"></div>
+					<div class="color-info">
+						<span class="hex-value">#2a1d74</span>
+						<i class="far fa-copy copy-btn" title="Copy to clipboard"></i>
+					</div>
+				</div>
+				<div class="color-box">
+					<div class="color" style="background-color: #972677"></div>
+					<div class="color-info">
+						<span class="hex-value">#972677</span>
+						<i class="far fa-copy copy-btn" title="Copy to clipboard"></i>
+					</div>
+				</div>
+				<div class="color-box">
+					<div class="color" style="background-color: #271d24"></div>
+					<div class="color-info">
+						<span class="hex-value">#271d24</span>
+						<i class="far fa-copy copy-btn" title="Copy to clipboard"></i>
+					</div>
+				</div>
+			</div>
 		</div>
 		<script src="script.js" type="module"></script>
 	</body>
